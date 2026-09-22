@@ -39,7 +39,7 @@ Header always set Strict-Transport-Security "max-age=31536000"
   permisos: referer vacío, el propio dominio con y sin `www`, y Google/Bing para que las
   imágenes se indexen.
 - **Compresión**: `AddOutputFilterByType` casa el tipo MIME EXACTO. Algunos alojamientos
-  sirven los `.js` como `application/x-javascript` y la regla no los alcanza: declara el
+  servían los `.js` como `application/x-javascript` (comprobado en 09/2026) y la regla no los alcanza: declara el
   tipo y añade los nombres antiguos. En este proyecto eran 60 KB en vez de 18.
 
 ## Auditoría antes de publicar

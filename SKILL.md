@@ -9,6 +9,11 @@ Destilado de un proyecto real llevado de principio a fin: una web corporativa bi
 de 16 páginas, sin backend, publicada en alojamiento compartido. Todo lo que hay aquí
 costó medirlo o equivocarse primero.
 
+**Todo se midió entre agosto y septiembre de 2026.** Lo que depende de un tercero
+—navegadores, servicios de formularios, paneles de buscadores— envejece: las
+afirmaciones más perecederas llevan su fecha, y conviene comprobarlas antes de
+apoyarse en ellas.
+
 **Léelo como criterio, no como receta.** Cada apartado dice qué decisión se tomó, qué se
 midió y qué falló, para que no haya que repetir el error.
 

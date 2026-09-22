@@ -55,7 +55,7 @@ guardó y no volvió.
 
 ## Tras cada despliegue
 
-1. **IndexNow** con las URLs que hayan cambiado: llega a Bing, Yandex, Seznam y Naver, y
+1. **IndexNow** con las URLs que hayan cambiado (09/2026): llega a Bing, Yandex, Seznam y Naver, y
    de Bing tiran DuckDuckGo, Ecosia y los buscadores de ChatGPT y Copilot. Publica el
    fichero de clave en la raíz y comprueba que responde antes de avisar (si no, 403).
 2. **Search Console**: pedir indexación de lo que ha cambiado de verdad. El límite no es

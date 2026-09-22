@@ -56,8 +56,8 @@ Contractuales Tipo) y declarar la transferencia.
   aviso tiene que decir A QUIÉN se conecta ANTES del clic («Al pulsar se carga YouTube
   (Google, EE. UU.)»), también en el `aria-label`, para que el consentimiento sea
   informado. Mide que en reposo hay **0 peticiones externas, 0 cookies y 0 iframes**.
-- **«nocookie» es un nombre comercial, no una garantía**: al reproducir se contactan ocho
-  hosts de Google y varios se llaman «stats» y «ptracking». Medir el panel de red ENTERO,
+- **«nocookie» es un nombre comercial, no una garantía**: al reproducir se contactaban ocho
+  hosts de Google (medido en 09/2026) y varios se llaman «stats» y «ptracking». Medir el panel de red ENTERO,
   no las primeras peticiones.
 - **Al cerrar el panel, retira el `<iframe>`**: pausar deja la conexión abierta.
 

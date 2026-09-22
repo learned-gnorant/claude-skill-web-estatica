@@ -28,7 +28,7 @@ Funciona bien (Formspree, Basin, Formcarry…), pero hay que saber esto:
    decía «Consulta enviada» y la consulta se archivaba en spam: **consultas de clientes
    perdiéndose en silencio**. Si se usa honeypot, `display:none`, nunca fuera de lienzo. Y
    un 200 no significa «ha llegado»: hay que mirar la bandeja de destino.
-2. **El captcha del servicio es incompatible con el envío por `fetch`.** El captcha
+2. **El captcha del servicio era incompatible con el envío por `fetch`** (Formspree, 09/2026).** El captcha
    espera que el navegador NAVEGUE al POST para enseñar el desafío; con `fetch` no hay
    página que enseñar y el envío se rechaza sin explicación. O envío clásico, o sin
    captcha.

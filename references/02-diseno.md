@@ -40,7 +40,7 @@ Evítalo salvo que lo pidan expresamente:
   (obligatorio aunque el fichero sea del propio dominio; sin él se descarga dos veces).
   Una fuente no se pide hasta que el navegador maqueta el texto que la usa, así que sin
   precarga siempre llega tarde.
-- **`font-display: fallback`**, no `optional` ni `swap`. `optional` NO intercambia si la
+- **`font-display: fallback`**, no `optional` ni `swap` (medido en 09/2026). `optional` NO intercambia si la
   fuente llega tarde: en cualquier primera visita real el sitio se compone con la letra
   de reserva. Se descubrió en producción, no en local, porque en local la red no existe.
 - **Ajusta la métrica de la reserva** (`size-adjust`) para que el cambio de fuente no
